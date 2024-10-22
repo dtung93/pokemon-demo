@@ -132,7 +132,7 @@ const Pokemons: React.FC<PokemonsProps> = ({ selectedTypes }) => {
         {filteredPokemons.map((pokemon) => (
           <StyledPokemonContainer key={pokemon.id} className="col-3">
             <div>
-              <img src={pokemon.imageUrl} alt={pokemon.name} />
+              <img style={{width: '110px'}} src={pokemon.imageUrl} alt={pokemon.name} />
             </div>
             <h3>{pokemon.name}</h3>
           </StyledPokemonContainer>
