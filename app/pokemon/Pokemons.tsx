@@ -16,7 +16,7 @@ const StyledResultSearch = styled.div`
 
 const StyledContainer = styled.div`
   display: flex;
-  flex-wrap: wrap; /* Allow items to wrap onto the next line */
+  flex-wrap: wrap; 
 `;
 
 const StyledPokemonContainer = styled.div`
